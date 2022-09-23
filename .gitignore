@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#glove word embedding
+/glove
+
+#macos
+.DS_Store
