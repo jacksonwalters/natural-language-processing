@@ -7,3 +7,4 @@ https://medium.com/coders-camp/20-machine-learning-projects-on-nlp-582effe73b9c
 2. *Text summarization* via Glove embeddings, cosine similarity matrix, and pagerank.
 3. *Sentiment analysis* via logistic regression.
 4. *Keyword extraction* via TF-IDF.
+5. *Hate speech detection* using SGDClassifier.
