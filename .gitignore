@@ -137,3 +137,4 @@ dmypy.json
 #data
 /sentiment_analysis/archive
 /keyword_extraction/archive
+/hate_speech_detection/hate_speech
