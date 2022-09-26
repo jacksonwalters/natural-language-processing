@@ -52,6 +52,27 @@ optimizer = RMSprop(lr=0.01)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
 history = model.fit(X, Y, validation_split=0.05, batch_size=128, epochs=2, shuffle=True).history
 
-#save model for future use
+#save the model
 model.save('keras_next_word_model.h5')
 pickle.dump(history, open("history.p", "wb"))
+
+
+history = pickle.load(open("history.p", "rb"))
+
+#plot the accuracy and validation accuracy
+plt.plot(history['accuracy'])
+plt.plot(history['val_accuracy'])
+plt.title('model accuracy')
+plt.ylabel('accuracy')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='upper left')
+plt.show()
+
+#plot the loss and validation loss
+plt.plot(history['loss'])
+plt.plot(history['val_loss'])
+plt.title('model loss')
+plt.ylabel('loss')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='upper left')
+plt.show()
