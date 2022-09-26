@@ -1,5 +1,5 @@
 # nlp
-NLP practice projects and examples.
+NLP practice projects and examples. All data files in .gitignore.
 
 Example projects: https://medium.com/coders-camp/20-machine-learning-projects-on-nlp-582effe73b9c
 
@@ -13,4 +13,4 @@ For Keras/TensorFlow on an Apple M1, I'm using conda miniforge with TensorFlow i
 3. *Sentiment analysis* via logistic regression.
 4. *Keyword extraction* via TF-IDF.
 5. *Hate speech detection* using SGDClassifier.
-6. Next word prediction using Keras/TF.
+6. *Next word prediction* using Keras/TF.
