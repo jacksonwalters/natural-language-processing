@@ -138,3 +138,4 @@ dmypy.json
 /sentiment_analysis/archive
 /keyword_extraction/archive
 /hate_speech_detection/hate_speech
+/next_word_prediction/1661-0.txt
