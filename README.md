@@ -14,3 +14,4 @@ For Keras/TensorFlow on an Apple M1, I'm using conda miniforge with TensorFlow i
 4. *Keyword extraction* via TF-IDF.
 5. *Hate speech detection* using SGDClassifier.
 6. *Next word prediction* using Keras/TF.
+7. *Spam detection* using SMS data, CountVectorizer (bag-of-words), and Multinomial Naive Bayes. 
