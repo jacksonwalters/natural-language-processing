@@ -16,3 +16,4 @@ For Keras/TensorFlow on an Apple M1, I'm using conda miniforge with TensorFlow i
 6. *Next word prediction* using Keras/TF.
 7. *Spam detection* using SMS data, CountVectorizer (bag-of-words), and Multinomial Naive Bayes. 
 8. *Text classification, part 2* using TF/Keras, IMDB reviews for positive/negative sentiment.
+9. *Spelling correction* using TextBlob (quick).
