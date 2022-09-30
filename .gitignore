@@ -139,3 +139,4 @@ dmypy.json
 /keyword_extraction/archive
 /hate_speech_detection/hate_speech
 /next_word_prediction/1661-0.txt
+/sms_spam_detection/spam.csv
