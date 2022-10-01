@@ -141,3 +141,4 @@ dmypy.json
 /next_word_prediction/1661-0.txt
 /sms_spam_detection/spam.csv
 /named_entity_recognition/ner_dataset.csv
+/twitter_sentiment_analysis/sentiment.csv
