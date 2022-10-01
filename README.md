@@ -18,3 +18,4 @@ For Keras/TensorFlow on an Apple M1, I'm using conda miniforge with TensorFlow i
 8. *Text classification, part 2* using TF/Keras, IMDB reviews for positive/negative sentiment.
 9. *Spelling correction* using TextBlob (quick).
 10. *Named entity recognition* via LSTM. Too long to train on M1.
+11. *Twitter sentiment analysis, part II*. Use Naive Bayes sentiment classifier trained on positive/negative labeled tweets.
