@@ -1,0 +1,7 @@
+use dataset of comments and write notebook in Python to perform topic modeling using doc2vec and k-means clustering
+
+option 1: given list of keywords L, create bigrams and embed using doc2vec. find bigram closest to centroid
+
+option 2: take top two words in each cluster to get bigrams
+
+option 3: match keywords to words in cluster to get top two keywords
