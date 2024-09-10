@@ -11,3 +11,5 @@ TO-DO:
 - try to separate clusters by tuning doc2vec model, e.g. use higher embedding dimension
 - measure distances between centroids, see if they are close
 - visualize clusters with PCA or t-SNE
+
+- perform LDA (latent Dirichlet allocation) analysis
