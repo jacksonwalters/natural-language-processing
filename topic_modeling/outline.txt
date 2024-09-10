@@ -1,7 +1,13 @@
 use dataset of comments and write notebook in Python to perform topic modeling using doc2vec and k-means clustering
 
 option 1: given list of keywords L, create bigrams and embed using doc2vec. find bigram closest to centroid
+option 2: take top two most frequent words in each cluster to get bigrams, or use TF-IDF
+option 3: use word embeddings to compute minimum distance from keyword to cluster vocabulary
 
-option 2: take top two words in each cluster to get bigrams
+---
 
-option 3: match keywords to words in cluster to get top two keywords
+TO-DO:
+
+- try to separate clusters by tuning doc2vec model, e.g. use higher embedding dimension
+- measure distances between centroids, see if they are close
+- visualize clusters with PCA or t-SNE
