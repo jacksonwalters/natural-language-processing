@@ -1,10 +1,14 @@
-use dataset of comments and write notebook in Python to perform topic modeling using doc2vec and k-means clustering
+PROBLEM: use dataset of twitter comments and write notebook in Python to perform topic modeling
+
+SOLUTION 1:
+
+CLUSTERING: use gensim doc2vec to embed comments, and k-means clustering to group.
+
+LABELING:
 
 option 1: given list of keywords L, create bigrams and embed using doc2vec. find bigram closest to centroid
 option 2: take top two most frequent words in each cluster to get bigrams, or use TF-IDF
 option 3: use word embeddings to compute minimum distance from keyword to cluster vocabulary
-
----
 
 TO-DO:
 
@@ -12,4 +16,8 @@ TO-DO:
 - measure distances between centroids, see if they are close
 - visualize clusters with PCA or t-SNE
 
-- perform LDA (latent Dirichlet allocation) analysis
+---
+
+SOLUTION 2:
+
+Use NMF or LDA. Use TF-IDF vectorizer instead of doc2vec for embedding.
