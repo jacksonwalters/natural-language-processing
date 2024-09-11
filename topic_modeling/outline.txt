@@ -4,20 +4,20 @@ SOLUTION 1:
 
 CLUSTERING: use gensim doc2vec to embed comments, and k-means clustering to group.
 
-LABELING:
+LABELING: Use TF-IDF on documents in cluster and take words with top scores.
 
-option 1: given list of keywords L, create bigrams and embed using doc2vec. find bigram closest to centroid
-option 2: take top two most frequent words in each cluster to get bigrams, or use TF-IDF
-option 3: use word embeddings to compute minimum distance from keyword to cluster vocabulary
+NOTES:
 
-TO-DO:
+Clusters are fairly well separated upon inspection with PCA. The distances make sense. 
 
-- try to separate clusters by tuning doc2vec model, e.g. use higher embedding dimension
-- measure distances between centroids, see if they are close
-- visualize clusters with PCA or t-SNE
+The best option for labeling seems to be using TF-IDF to get the top two words with the best score. 
+
+One can really look at the top ten words or so and get a pretty clear idea of what the topic is. With a little filtering for "words" like "http", it would give a clear idea of what the cluster is about.
 
 ---
 
-SOLUTION 2:
+SOLUTION 2: 
 
-Use NMF or LDA. Use TF-IDF vectorizer instead of doc2vec for embedding.
+Use NMF or LDA. Use TF-IDF vectorizer. 
+
+NOTES: This works pretty well.
