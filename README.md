@@ -7,6 +7,7 @@ ML on M1: https://caffeinedev.medium.com/how-to-install-tensorflow-on-m1-mac-8e9
 
 For Keras/TensorFlow on an Apple M1, I'm using conda miniforge with TensorFlow installed in a virtual environment (conda activate mlp, after install). Much of the NLP uses NLTK rather than spaCy, with separately downloaded Glove word embeddings.
 
+Webapp: https://wordchef.app/topic_modeling
 
 1. Binary *sentence classification* via CNN/RNN on Biden/Trump tweets.
 2. *Text summarization* via Glove embeddings, cosine similarity matrix, and pagerank.
@@ -19,4 +20,4 @@ For Keras/TensorFlow on an Apple M1, I'm using conda miniforge with TensorFlow i
 9. *Spelling correction* using TextBlob (quick).
 10. *Named entity recognition* via LSTM. Too long to train on M1.
 11. *Twitter sentiment analysis, part II*. Use Naive Bayes sentiment classifier trained on positive/negative labeled tweets.
-12. *Topic modeling*. Use doc2vec embeddings and k-means clustering with list of keywords to label clusters with topic.
+12. *Topic modeling*. Use doc2vec embeddings, k-means clustering, TF-IDF scores to label clusters with topic.
