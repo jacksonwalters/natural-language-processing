@@ -1,0 +1,13 @@
+**TOPIC MODELING**
+
+Available at https://wordchef.app/topic_modeling
+
+Built from https://github.com/jacksonwalters/nlp/topic_modeling
+
+- User uploads comments .csv and keywords .csv
+- Load pre-trained gensim doc2vec model
+- Embed comments as docs to get vector embeddings
+- Use k-means to cluster comments into groups
+- Compute TF-IDF scores across clusters
+- Embed keywords/bigrams and compute nearest bigram to cluster centroid
+- Find nearest keyword/bigram to each comment
